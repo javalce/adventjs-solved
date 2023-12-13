@@ -24,4 +24,12 @@ describe('Reto #4: Dale la vuelta a los paréntesis', () => {
 
     expect(result).toBe(expected);
   });
+
+  it('Para el string "((nta)(sa))", debería devolver "santa"', () => {
+    const message = '((nta)(sa))';
+    const expected = 'santa';
+    const result = decode(message);
+
+    expect(result).toBe(expected);
+  });
 });
