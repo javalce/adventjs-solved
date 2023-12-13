@@ -1,14 +1,15 @@
 export function decode(message: string): string {
-  const hasParenthesis = (word: string) => /[\(\)]/.test(word);
-  const getContentInParenthesis = (word: string) => {
+  const hasParenthesis = (word: string): boolean => /[()]/.test(word);
+  const getContentInParenthesis = (word: string): string => {
     const start = word.lastIndexOf('(');
     const end = word.indexOf(')');
 
     const firstContent = word.slice(0, start);
     const lastContent = word.slice(end + 1);
-    let content = word.slice(start + 1, end);
+    const content = word.slice(start + 1, end);
 
     const reversedContent = content.split('').reverse().join('');
+
     return [firstContent, reversedContent, lastContent].join('');
   };
 

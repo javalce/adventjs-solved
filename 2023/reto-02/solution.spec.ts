@@ -6,6 +6,7 @@ describe('Reto #2: Ponemos en marcha la fábrica', () => {
     const materials = 'tronesa';
     const expected = ['tren', 'oso'];
     const result = manufacture(gifts, materials);
+
     expect(result).toStrictEqual(expected);
   });
 
@@ -14,6 +15,7 @@ describe('Reto #2: Ponemos en marcha la fábrica', () => {
     const materials = 'jlepuz';
     const expected = ['puzzle'];
     const result = manufacture(gifts, materials);
+
     expect(result).toStrictEqual(expected);
   });
 
@@ -22,6 +24,7 @@ describe('Reto #2: Ponemos en marcha la fábrica', () => {
     const materials = 'psli';
     const expected: string[] = [];
     const result = manufacture(gifts, materials);
+
     expect(result).toStrictEqual(expected);
   });
 });

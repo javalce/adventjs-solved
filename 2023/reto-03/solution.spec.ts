@@ -6,6 +6,7 @@ describe('Reto #3: El elfo travieso', () => {
     const modified = 'abcde';
     const expected = 'e';
     const result = findNaugtyStep(original, modified);
+
     expect(result).toBe(expected);
   });
 
@@ -14,6 +15,7 @@ describe('Reto #3: El elfo travieso', () => {
     const modified = 'stepor';
     const expected = 'f';
     const result = findNaugtyStep(original, modified);
+
     expect(result).toBe(expected);
   });
 
@@ -22,6 +24,7 @@ describe('Reto #3: El elfo travieso', () => {
     const modified = 'abcde';
     const expected = '';
     const result = findNaugtyStep(original, modified);
+
     expect(result).toBe(expected);
   });
 });

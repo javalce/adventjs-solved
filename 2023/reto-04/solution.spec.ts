@@ -5,6 +5,7 @@ describe('Reto #4: Dale la vuelta a los paréntesis', () => {
     const message = 'hola (odnum)';
     const expected = 'hola mundo';
     const result = decode(message);
+
     expect(result).toBe(expected);
   });
 
@@ -12,6 +13,7 @@ describe('Reto #4: Dale la vuelta a los paréntesis', () => {
     const message = '(olleh) (dlrow)!';
     const expected = 'hello world!';
     const result = decode(message);
+
     expect(result).toBe(expected);
   });
 
@@ -19,6 +21,7 @@ describe('Reto #4: Dale la vuelta a los paréntesis', () => {
     const message = 'sa(u(cla)atn)s';
     const expected = 'santaclaus';
     const result = decode(message);
+
     expect(result).toBe(expected);
   });
 });

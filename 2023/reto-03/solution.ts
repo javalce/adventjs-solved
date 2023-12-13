@@ -6,6 +6,7 @@ export function findNaugtyStep(original: string, modified: string): string {
   for (let i = 0; i < original.length; i++) {
     const a = original[i];
     const b = modified[i];
+
     if (a !== b) return a;
   }
 
