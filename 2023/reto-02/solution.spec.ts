@@ -10,18 +10,27 @@ describe('Reto #2: Ponemos en marcha la fábrica', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  it('Para los gifts ["juego", "puzzle"] y el material "jlepuz", debería devolver ["puzzle"]', () => {
-    const gifts = ['juego', 'puzzle'];
-    const materials = 'jlepuz';
-    const expected = ['puzzle'];
+  it('Para los gifts ["coche", "muñeca", "balon"] y el material "ocmuñalb", debería devolver []', () => {
+    const gifts = ['coche', 'muñeca', 'balon'];
+    const materials = 'ocmuñalb';
+    const expected: string[] = [];
     const result = manufacture(gifts, materials);
 
     expect(result).toStrictEqual(expected);
   });
 
-  it('Para los gifts ["libro", "ps5"] y el material "psli", debería devolver []', () => {
-    const gifts = ['libro', 'ps5'];
-    const materials = 'psli';
+  it('Para los gifts ["patineta", "robot", "robot"] y el material "nopor", debería devolver []', () => {
+    const gifts = ['patineta', 'robot', 'robot'];
+    const materials = 'nopor';
+    const expected: string[] = [];
+    const result = manufacture(gifts, materials);
+
+    expect(result).toStrictEqual(expected);
+  });
+
+  it('Para los gifts [] y el material "letras", debería devolver []', () => {
+    const gifts: string[] = [];
+    const materials = 'letras';
     const expected: string[] = [];
     const result = manufacture(gifts, materials);
 
