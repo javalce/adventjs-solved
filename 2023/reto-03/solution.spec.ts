@@ -1,20 +1,11 @@
-import { findNaugtyStep } from './solution';
+import { findNaughtyStep } from './solution';
 
 describe('Reto #3: El elfo travieso', () => {
   it('Para el original "abcd" y el modificado "abcde", debería devolver "e"', () => {
     const original = 'abcd';
     const modified = 'abcde';
     const expected = 'e';
-    const result = findNaugtyStep(original, modified);
-
-    expect(result).toBe(expected);
-  });
-
-  it('Para el original "stepfor" y el modificado "stepor", debería devolver "f"', () => {
-    const original = 'stepfor';
-    const modified = 'stepor';
-    const expected = 'f';
-    const result = findNaugtyStep(original, modified);
+    const result = findNaughtyStep(original, modified);
 
     expect(result).toBe(expected);
   });
@@ -23,7 +14,34 @@ describe('Reto #3: El elfo travieso', () => {
     const original = 'abcde';
     const modified = 'abcde';
     const expected = '';
-    const result = findNaugtyStep(original, modified);
+    const result = findNaughtyStep(original, modified);
+
+    expect(result).toBe(expected);
+  });
+
+  it('Para el original "xxxx" y el modificado "xxoxx", debería devolver "o"', () => {
+    const original = 'xxxx';
+    const modified = 'xxoxx';
+    const expected = 'o';
+    const result = findNaughtyStep(original, modified);
+
+    expect(result).toBe(expected);
+  });
+
+  it('Para el original "stepfor" y el modificado "stepor", debería devolver "f"', () => {
+    const original = 'stepfor';
+    const modified = 'stepor';
+    const expected = 'f';
+    const result = findNaughtyStep(original, modified);
+
+    expect(result).toBe(expected);
+  });
+
+  it('Para el original "iiiii" y el modificado "iiiii", debería devolver ""', () => {
+    const original = 'iiiii';
+    const modified = 'iiiii';
+    const expected = '';
+    const result = findNaughtyStep(original, modified);
 
     expect(result).toBe(expected);
   });

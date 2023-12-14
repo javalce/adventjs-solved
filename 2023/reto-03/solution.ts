@@ -1,4 +1,4 @@
-export function findNaugtyStep(original: string, modified: string): string {
+export function findNaughtyStep(original: string, modified: string): string {
   if (original.length < modified.length) {
     [modified, original] = [original, modified];
   }
