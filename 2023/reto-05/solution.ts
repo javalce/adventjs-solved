@@ -20,7 +20,7 @@ export function cyberReindeer(road: string, time: number): string[] {
       [prev, next] = road.split(paths.trineo);
     }
 
-    if (next[0] !== paths.closedBarrier) {
+    if (next.startsWith(paths.closedBarrier)) {
       replaceChar = lastChar;
       lastChar = next[0];
       nextRoad = next.slice(1);
