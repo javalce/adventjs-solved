@@ -1,35 +1,30 @@
 export function cyberReindeer(road: string, time: number): string[] {
-  const paths = {
-    road: '.',
-    trineo: 'S',
-    openedBarrier: '*',
-    closedBarrier: '|',
-  } as const;
+  const PATHS = {
+    ROAD: '.',
+    TRINEO: 'S',
+    OPENED_BARRIER: '*',
+    CLOSED_BARRIER: '|',
+  };
   const result = [road];
-  const trineoIndex = road.indexOf(paths.trineo);
-  let lastChar = trineoIndex === 0 ? paths.road : road[trineoIndex - 1];
-  const loopsToOpenDoor = 5;
+  let lastChar = PATHS.ROAD;
+  const LOOPS_TO_OPEN_DOOR = 5;
 
-  for (let i = 0; i < time - 1; i++) {
-    let replaceChar;
-    let nextRoad;
-
-    if (i === loopsToOpenDoor - 1) {
-      road = road.replaceAll(paths.closedBarrier, paths.openedBarrier);
+  for (let i = 1; i < time; i++) {
+    if (i === LOOPS_TO_OPEN_DOOR) {
+      road = road.replaceAll(PATHS.CLOSED_BARRIER, PATHS.OPENED_BARRIER);
     }
 
-    const [prev, next] = road.split(paths.trineo);
+    const trineoIndex = road.indexOf(PATHS.TRINEO);
+    const nextChar = road[trineoIndex + 1];
 
-    if (!next.startsWith(paths.closedBarrier)) {
-      replaceChar = lastChar;
-      lastChar = next[0];
-      nextRoad = next.slice(1);
-    } else {
-      replaceChar = '';
-      nextRoad = next;
+    if (nextChar !== PATHS.CLOSED_BARRIER) {
+      const prev = road.substring(0, trineoIndex);
+      const next = road.substring(trineoIndex + 2);
+
+      road = prev + lastChar + PATHS.TRINEO + next;
+      lastChar = nextChar;
     }
 
-    road = [prev, replaceChar, paths.trineo, nextRoad].join('');
     result.push(road);
   }
 

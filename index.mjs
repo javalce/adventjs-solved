@@ -47,7 +47,10 @@ async function main() {
             return { title, value: challenge };
           });
 
-          return [{ title: 'Ejecutar todos los tests', value: 'all' }, ...challengesChoices];
+          return [
+            { title: 'Ejecutar todos los tests', value: 'all' },
+            ...challengesChoices,
+          ];
         },
       },
     ],

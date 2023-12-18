@@ -38,6 +38,7 @@ module.exports = {
         next: ['const', 'let', 'var'],
       },
     ],
+    '@typescript-eslint/no-shadow': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
   },
 };
