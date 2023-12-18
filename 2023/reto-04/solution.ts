@@ -2,7 +2,7 @@ export function decode(message: string): string {
   const regex = /\([^()]+\)/;
 
   while (regex.test(message)) {
-    const found = message.match(regex)!;
+    const found = regex.exec(message)!;
 
     let content = found[0];
     const [firstContent, lastContent] = message.split(content);

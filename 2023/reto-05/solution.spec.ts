@@ -1,7 +1,7 @@
 import { cyberReindeer } from './solution';
 
-describe('Reto #5: El CyberTruck de Santa', () => {
-  it('Test 1', () => {
+describe('reto #5: El CyberTruck de Santa', () => {
+  it('test 1', () => {
     const road = 'S.........';
     const time = 5;
     const expected = [
@@ -16,7 +16,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 2', () => {
+  it('test 2', () => {
     const road = 'S..*...*..';
     const time = 5;
     const expected = [
@@ -31,7 +31,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 3', () => {
+  it('test 3', () => {
     const road = 'S..|...|..';
     const time = 10;
     const expected = [
@@ -51,7 +51,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 4', () => {
+  it('test 4', () => {
     const road = '..S|...|..';
     const time = 10;
     const expected = [
