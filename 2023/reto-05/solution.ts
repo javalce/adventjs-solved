@@ -11,14 +11,14 @@ export function cyberReindeer(road: string, time: number): string[] {
   const loopsToOpenDoor = 5;
 
   for (let i = 0; i < time - 1; i++) {
-    let [prev, next] = road.split(paths.trineo);
     let replaceChar;
     let nextRoad;
 
     if (i === loopsToOpenDoor - 1) {
       road = road.replaceAll(paths.closedBarrier, paths.openedBarrier);
-      [prev, next] = road.split(paths.trineo);
     }
+
+    const [prev, next] = road.split(paths.trineo);
 
     if (!next.startsWith(paths.closedBarrier)) {
       replaceChar = lastChar;
