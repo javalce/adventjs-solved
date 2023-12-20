@@ -11,6 +11,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 03  |        😏 [El elfo travieso](2023/reto-03/README.md)         |   Fácil    | [Mostrar](2023/reto-03/solution.ts) |
 | 04  | 😵‍💫 [Dale la vuelta a los paréntesis](2023/reto-04/README.md) |   Medio    | [Mostrar](2023/reto-04/solution.ts) |
 | 05  |     🛷 [El CyberTruck de Santa](2023/reto-05/README.md)      |   Medio    | [Mostrar](2023/reto-05/solution.ts) |
+| 06  |       🦌 [Los renos a prueba](2023/reto-06/README.md)        |   Fácil    | [Mostrar](2023/reto-06/solution.ts) |
 
 ## Quickstart
 
