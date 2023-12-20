@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node index.mjs",
-    "jest": "jest",
+    "test:reto": "jest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write ."
