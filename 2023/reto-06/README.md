@@ -1,4 +1,4 @@
-# Reto 06: 🦌 Los renos a prueba
+# 🦌 Los renos a prueba
 
 ## 📝 Instrucciones
 
