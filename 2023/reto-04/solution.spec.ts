@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { decode } from './solution';
 
 describe('reto #4: Dale la vuelta a los paréntesis', () => {

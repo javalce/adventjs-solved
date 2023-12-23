@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-
-import jest from 'jest';
 import { readdir } from 'node:fs/promises';
 import path from 'path';
 import prompts from 'prompts';
+import { startVitest } from 'vitest/node';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
@@ -64,7 +63,7 @@ async function main() {
 
   const directory = path.join(year, challenge === 'all' ? '' : challenge);
 
-  jest.run(directory);
+  startVitest('test', [directory]);
 }
 
 main().catch(console.error);

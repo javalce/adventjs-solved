@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { findFirstRepeated } from './solution';
 
 describe('reto #1: ¡Primer regalo repetido!', () => {

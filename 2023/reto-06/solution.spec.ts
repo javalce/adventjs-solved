@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { maxDistance } from './solution';
 
 describe('reto 06: Los renos a prueba', () => {

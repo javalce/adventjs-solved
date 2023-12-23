@@ -22,7 +22,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.test.{ts,js}', '*.spec.{ts,js}'],
-      extends: [require.resolve('@vercel/style-guide/eslint/jest')],
+      extends: ['plugin:vitest/recommended'],
     },
   ],
   ignorePatterns: ['index.mjs'],

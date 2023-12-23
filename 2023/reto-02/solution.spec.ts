@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { manufacture } from './solution';
 
 describe('reto #2: Ponemos en marcha la fábrica', () => {

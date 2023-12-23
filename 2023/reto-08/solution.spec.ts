@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { organizeGifts } from './solution';
 
 describe('reto 08: Ordenado el almacén', () => {

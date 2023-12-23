@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { drawGift } from './solution';
 
 describe('reto 07: Las cajas en 3D', () => {

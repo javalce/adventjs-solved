@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { findNaughtyStep } from './solution';
 
 describe('reto #3: El elfo travieso', () => {

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { cyberReindeer } from './solution';
 
 describe('reto #5: El CyberTruck de Santa', () => {
