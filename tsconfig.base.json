@@ -8,8 +8,9 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "target": "ES2022",
-    "module": "ES2022",
-    "lib": ["ES2022"]
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["ESNext"]
   }
 }
