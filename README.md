@@ -12,8 +12,9 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 04  | 😵‍💫 [Dale la vuelta a los paréntesis](2023/reto-04/README.md) |   Medio    | [Mostrar](2023/reto-04/solution.ts) |
 | 05  |     🛷 [El CyberTruck de Santa](2023/reto-05/README.md)      |   Medio    | [Mostrar](2023/reto-05/solution.ts) |
 | 06  |       🦌 [Los renos a prueba](2023/reto-06/README.md)        |   Fácil    | [Mostrar](2023/reto-06/solution.ts) |
-| 07  |       📦️ [Las cajas en 3D](2023/reto-07/README.md) 🎄       |   Fácil    | [Mostrar](2023/reto-07/solution.ts) |
-| 08  |     🏬 [Ordenando el almacén](2023/reto-08/README.md) 🎄     |   Medio    | [Mostrar](2023/reto-08/solution.ts) |
+| 07  |        📦️ [Las cajas en 3D](2023/reto-07/README.md)         |   Fácil    | [Mostrar](2023/reto-07/solution.ts) |
+| 08  |      🏬 [Ordenando el almacén](2023/reto-08/README.md)       |   Medio    | [Mostrar](2023/reto-08/solution.ts) |
+| 09  |        🚦 [Alterna las luces](2023/reto-09/README.md)        |   Fácil    | [Mostrar](2023/reto-09/solution.ts) |
 
 ## Quickstart
 
