@@ -17,6 +17,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 09  |        🚦 [Alterna las luces](2023/reto-09/README.md)        |   Fácil    | [Mostrar](2023/reto-09/solution.ts) |
 | 10  | 🎄 [Crea tu propio árbol de navidad](2023/reto-10/README.md) |   Fácil    | [Mostrar](2023/reto-10/solution.ts) |
 | 11  |      📖 [Los elfos estudiosos](2023/reto-11/README.md)       |   Medio    | [Mostrar](2023/reto-11/solution.ts) |
+| 12  |      📷 [¿Es una copia válida?](2023/reto-12/README.md)      |   Medio    | [Mostrar](2023/reto-12/solution.ts) |
 
 ## Quickstart
 
