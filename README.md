@@ -20,6 +20,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 12  |      📷 [¿Es una copia válida?](2023/reto-12/README.md)      |   Medio    | [Mostrar](2023/reto-12/solution.ts) |
 | 13  |      ⌚️ [Calculando el tiempo](2023/reto-13/README.md)       |   Fácil    | [Mostrar](2023/reto-13/solution.ts) |
 | 14  |         🚨 [Evita la alarma](2023/reto-14/README.md)         |   Medio    | [Mostrar](2023/reto-14/solution.ts) |
+| 15  |         ↔️ [Robot autónomo](2023/reto-15/README.md)          |   Medio    | [Mostrar](2023/reto-15/solution.ts) |
 
 ## Quickstart
 
