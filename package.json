@@ -2,18 +2,21 @@
   "name": "adventjs",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "author": "javalce",
   "type": "module",
   "scripts": {
-    "test": "node index.mjs",
-    "test:reto": "vitest",
+    "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ."
+    "test": "node index.mjs",
+    "test:reto": "vitest"
   },
-  "author": "javalce",
-  "license": "MIT",
+  "prettier": "@javalce/prettier-config",
+  "dependencies": {},
   "devDependencies": {
     "@javalce/eslint-config": "0.8.0-beta.1",
+    "@javalce/prettier-config": "1.0.2",
     "@types/node": "22.7.9",
     "@vitest/eslint-plugin": "1.1.7",
     "eslint": "9.13.0",
