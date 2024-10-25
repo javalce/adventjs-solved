@@ -1,59 +1,35 @@
 export function transformTree(tree: (number | null)[]): object | null {
-  interface TreeNode {
-    value: number | null;
-    left: TreeNode | null;
-    right: TreeNode | null;
-  }
+  const root = tree.shift();
 
-  if (tree.length === 0) {
+  if (root === undefined || root === null) {
     return null;
   }
 
-  const newTree: TreeNode = {
-    value: tree[0],
-    left: null,
-    right: null,
-  };
-  const queue: (TreeNode | null)[] = [newTree];
-  let i = 1;
+  const L: (number | null)[] = [];
+  const R: (number | null)[] = [];
+  let n = 1;
+  let i = 0;
+  let inL = true;
+  let c = 0;
 
   while (i < tree.length) {
-    const curr = queue.shift() as TreeNode | null;
-
-    if (i < tree.length) {
-      const value = tree[i++];
-
-      if (curr !== null) {
-        if (value === null) {
-          curr.left = null;
-        } else {
-          curr.left = {
-            value,
-            left: null,
-            right: null,
-          };
-        }
-        queue.push(curr.left);
-      }
+    if (inL) {
+      L.push(tree[i]);
+    } else {
+      R.push(tree[i]);
     }
-
-    if (i < tree.length) {
-      const value = tree[i++];
-
-      if (curr !== null) {
-        if (value === null) {
-          curr.right = null;
-        } else {
-          curr.right = {
-            value,
-            left: null,
-            right: null,
-          };
-        }
-        queue.push(curr.right);
-      }
+    c++;
+    i++;
+    if (c === n) {
+      c = 0;
+      inL = !inL;
+      if (inL) n *= 2;
     }
   }
 
-  return newTree;
+  return {
+    value: root,
+    left: transformTree(L),
+    right: transformTree(R),
+  };
 }
