@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
+
 import { adjustLights } from './solution';
 
-describe('Reto 09: Alterna las luces', () => {
-  it('Debe devolver un número', () => {
+describe('reto 09: Alterna las luces', () => {
+  it('debe devolver un número', () => {
     expect(typeof adjustLights([])).toBe('number');
   });
 

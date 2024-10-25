@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
+
 import { cyberReindeer } from './solution';
 
-describe('Reto #5: El CyberTruck de Santa', () => {
-  it('Test 1', () => {
+describe('reto #5: El CyberTruck de Santa', () => {
+  it('test 1', () => {
     const road = 'S..|...|..';
     const time = 10;
     const expected = [
@@ -22,7 +23,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 2', () => {
+  it('test 2', () => {
     const road = 'S.|.';
     const time = 4;
     const expected = ['S.|.', '.S|.', '.S|.', '.S|.'];
@@ -31,7 +32,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 3', () => {
+  it('test 3', () => {
     const road = 'S.|.|.';
     const time = 7;
     const expected = [
@@ -48,7 +49,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 4', () => {
+  it('test 4', () => {
     const road = 'S.|..';
     const time = 6;
     const expected = ['S.|..', '.S|..', '.S|..', '.S|..', '.S|..', '..S..'];
@@ -57,7 +58,7 @@ describe('Reto #5: El CyberTruck de Santa', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Test 5', () => {
+  it('test 5', () => {
     const road = 'S.|.|.|......|.||.........';
     const time = 8;
     const expected = [

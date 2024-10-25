@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
+
 import { drawGift } from './solution';
 
-describe('Reto 07: Las cajas en 3D', () => {
-  it('Test 1', () => {
+describe('reto 07: Las cajas en 3D', () => {
+  it('test 1', () => {
     const size = 4;
     const symbol = '+';
     const expected =
@@ -18,7 +19,7 @@ describe('Reto 07: Las cajas en 3D', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 2', () => {
+  it('test 2', () => {
     const size = 5;
     const symbol = '*';
     const expected =
@@ -36,7 +37,7 @@ describe('Reto 07: Las cajas en 3D', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 3', () => {
+  it('test 3', () => {
     const size = 1;
     const symbol = '^';
     const expected = '#\n';
@@ -45,7 +46,7 @@ describe('Reto 07: Las cajas en 3D', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 4', () => {
+  it('test 4', () => {
     const size = 2;
     const symbol = '&';
     const expected = ' ##\n###\n##\n';
@@ -54,7 +55,7 @@ describe('Reto 07: Las cajas en 3D', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 5', () => {
+  it('test 5', () => {
     const size = 10;
     const symbol = '%';
     const expected =

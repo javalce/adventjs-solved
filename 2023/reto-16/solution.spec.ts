@@ -1,16 +1,17 @@
 import { describe, expect, it } from 'vitest';
+
 import { transformTree } from './solution';
 
-describe('Reto 16: Despliegue en viernes', () => {
-  it('Debería devolver un objeto', () => {
+describe('reto 16: Despliegue en viernes', () => {
+  it('debería devolver un objeto', () => {
     expect(transformTree([])).toBeTypeOf('object');
   });
 
-  it('Debería devolver null para el array []', () => {
+  it('debería devolver null para el array []', () => {
     expect(transformTree([])).toBeNull();
   });
 
-  it('Debería devolver un objeto para el array [1]', () => {
+  it('debería devolver un objeto para el array [1]', () => {
     const tree = [1];
     const expected = {
       value: 1,
@@ -22,7 +23,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [1, 2, 3]', () => {
+  it('debería devolver un objeto para el array [1, 2, 3]', () => {
     const tree = [1, 2, 3];
     const expected = {
       value: 1,
@@ -42,7 +43,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [1, 2, 3, 4, 5]', () => {
+  it('debería devolver un objeto para el array [1, 2, 3, 4, 5]', () => {
     const tree = [1, 2, 3, 4, 5];
     const expected = {
       value: 1,
@@ -70,7 +71,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [1, 2, 3, 4, 5, 6, 7]', () => {
+  it('debería devolver un objeto para el array [1, 2, 3, 4, 5, 6, 7]', () => {
     const tree = [1, 2, 3, 4, 5, 6, 7];
     const expected = {
       value: 1,
@@ -106,7 +107,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [17, 0, null, null, 1]', () => {
+  it('debería devolver un objeto para el array [17, 0, null, null, 1]', () => {
     const tree = [17, 0, null, null, 1];
     const expected = {
       value: 17,
@@ -126,7 +127,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [3, 1, 0, 8, 12, null, 1]', () => {
+  it('debería devolver un objeto para el array [3, 1, 0, 8, 12, null, 1]', () => {
     const tree = [3, 1, 0, 8, 12, null, 1];
     const expected = {
       value: 3,
@@ -158,7 +159,7 @@ describe('Reto 16: Despliegue en viernes', () => {
     expect(result).toEqual(expected);
   });
 
-  it('Debería devolver un objeto para el array [2, 7, 5, null, 6, null, 9, null, null, 1, 11, null, null, null, 10]', () => {
+  it('debería devolver un objeto para el array [2, 7, 5, null, 6, null, 9, null, null, 1, 11, null, null, null, 10]', () => {
     const tree = [
       2,
       7,

@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
+
 import { maxDistance } from './solution';
 
-describe('Reto 06: Los renos a prueba', () => {
-  it('Test 1', () => {
+describe('reto 06: Los renos a prueba', () => {
+  it('test 1', () => {
     const movements = '>>*<';
     const result = maxDistance(movements);
     const expected = 2;
@@ -10,7 +11,7 @@ describe('Reto 06: Los renos a prueba', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 2', () => {
+  it('test 2', () => {
     const movements = '<<<<<';
     const result = maxDistance(movements);
     const expected = 5;
@@ -18,7 +19,7 @@ describe('Reto 06: Los renos a prueba', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 3', () => {
+  it('test 3', () => {
     const movements = '>***>';
     const result = maxDistance(movements);
     const expected = 5;
@@ -26,7 +27,7 @@ describe('Reto 06: Los renos a prueba', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 4', () => {
+  it('test 4', () => {
     const movements = '**********';
     const result = maxDistance(movements);
     const expected = 10;
@@ -34,7 +35,7 @@ describe('Reto 06: Los renos a prueba', () => {
     expect(result).toBe(expected);
   });
 
-  it('Test 5', () => {
+  it('test 5', () => {
     const movements = '<<**>>';
     const result = maxDistance(movements);
     const expected = 2;

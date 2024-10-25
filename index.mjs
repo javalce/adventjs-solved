@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { readdir } from 'node:fs/promises';
-import path from 'path';
+import path from 'node:path';
+
 import prompts from 'prompts';
 import { startVitest } from 'vitest/node';
 import yargs from 'yargs';
