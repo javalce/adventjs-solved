@@ -1,7 +1,4 @@
-export default function checkIsValidCopy(
-  original: string,
-  copy: string,
-): boolean {
+export default function checkIsValidCopy(original: string, copy: string): boolean {
   const SYMBOLS = '#+:. ';
   const UPPERCASE_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const LOWERCASE_LETTERS = 'abcdefghijklmnopqrstuvwxyz';

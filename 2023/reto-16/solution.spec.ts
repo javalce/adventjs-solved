@@ -160,23 +160,7 @@ describe('reto 16: Despliegue en viernes', () => {
   });
 
   it('debería devolver un objeto para el array [2, 7, 5, null, 6, null, 9, null, null, 1, 11, null, null, null, 10]', () => {
-    const tree = [
-      2,
-      7,
-      5,
-      null,
-      6,
-      null,
-      9,
-      null,
-      null,
-      1,
-      11,
-      null,
-      null,
-      null,
-      10,
-    ];
+    const tree = [2, 7, 5, null, 6, null, 9, null, null, 1, 11, null, null, null, 10];
     const expected = {
       value: 2,
       left: {

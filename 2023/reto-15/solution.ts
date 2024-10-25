@@ -1,7 +1,4 @@
-export function autonomousDrive(
-  store: string[],
-  movements: string[],
-): string[] {
+export function autonomousDrive(store: string[], movements: string[]): string[] {
   const MOVEMENTS: Record<string, number> = {
     R: 1,
     L: -1,

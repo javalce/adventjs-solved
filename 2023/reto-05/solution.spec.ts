@@ -35,15 +35,7 @@ describe('reto #5: El CyberTruck de Santa', () => {
   it('test 3', () => {
     const road = 'S.|.|.';
     const time = 7;
-    const expected = [
-      'S.|.|.',
-      '.S|.|.',
-      '.S|.|.',
-      '.S|.|.',
-      '.S|.|.',
-      '..S.*.',
-      '..*S*.',
-    ];
+    const expected = ['S.|.|.', '.S|.|.', '.S|.|.', '.S|.|.', '.S|.|.', '..S.*.', '..*S*.'];
     const result = cyberReindeer(road, time);
 
     expect(result).toEqual(expected);

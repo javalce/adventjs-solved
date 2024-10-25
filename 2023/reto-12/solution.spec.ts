@@ -8,15 +8,11 @@ describe('reto 12: ¿Es una copia válida?', () => {
   });
 
   it('debería devolver true para la copia "sa#ta cl#us is comin#" de "Santa Claus is coming"', () => {
-    expect(
-      checkIsValidCopy('Santa Claus is coming', 'sa#ta cl#us is comin#'),
-    ).toBeTruthy();
+    expect(checkIsValidCopy('Santa Claus is coming', 'sa#ta cl#us is comin#')).toBeTruthy();
   });
 
   it('debería devolver false para la copia "p#nt: cla#s #s c+min#" de "Santa Claus is coming"', () => {
-    expect(
-      checkIsValidCopy('Santa Claus is coming', 'p#nt: cla#s #s c+min#'),
-    ).toBeFalsy();
+    expect(checkIsValidCopy('Santa Claus is coming', 'p#nt: cla#s #s c+min#')).toBeFalsy();
   });
 
   it('debería devolver false para la copia " Santa Claus " de "Santa Claus"', () => {

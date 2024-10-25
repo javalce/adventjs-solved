@@ -7,13 +7,7 @@ describe('reto 07: Las cajas en 3D', () => {
     const size = 4;
     const symbol = '+';
     const expected =
-      '   ####\n' +
-      '  #++##\n' +
-      ' #++#+#\n' +
-      '####++#\n' +
-      '#++#+#\n' +
-      '#++##\n' +
-      '####\n';
+      '   ####\n' + '  #++##\n' + ' #++#+#\n' + '####++#\n' + '#++#+#\n' + '#++##\n' + '####\n';
     const result = drawGift(size, symbol);
 
     expect(result).toBe(expected);

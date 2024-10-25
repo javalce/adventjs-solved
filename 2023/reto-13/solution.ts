@@ -18,14 +18,8 @@ export function calculateTime(deliveries: string[]): string {
   const maxDeliveryDateTimestamp = maxDeliveryDate.getTime();
   const deliveryDateTimestamp = deliveryDate.getTime();
 
-  const maxTimestamp = Math.max(
-    maxDeliveryDateTimestamp,
-    deliveryDateTimestamp,
-  );
-  const minTimestamp = Math.min(
-    maxDeliveryDateTimestamp,
-    deliveryDateTimestamp,
-  );
+  const maxTimestamp = Math.max(maxDeliveryDateTimestamp, deliveryDateTimestamp);
+  const minTimestamp = Math.min(maxDeliveryDateTimestamp, deliveryDateTimestamp);
 
   const diffTimestamp = maxTimestamp - minTimestamp;
 
