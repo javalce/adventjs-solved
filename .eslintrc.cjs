@@ -4,25 +4,17 @@ const project = resolve(__dirname, 'tsconfig.json');
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  env: {
-    es2021: true,
-  },
   extends: [
     require.resolve('@vercel/style-guide/eslint/node'),
     require.resolve('@vercel/style-guide/eslint/typescript'),
-    'plugin:prettier/recommended',
   ],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
     project,
   },
   overrides: [
     {
-      files: ['*.test.{ts,js}', '*.spec.{ts,js}'],
-      extends: ['plugin:vitest/recommended'],
+      files: ['*.spec.{ts,js}'],
+      extends: [require.resolve('@vercel/style-guide/eslint/vitest')],
     },
   ],
   ignorePatterns: ['index.mjs'],

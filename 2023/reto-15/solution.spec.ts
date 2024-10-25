@@ -69,7 +69,6 @@ describe('Reto 15: Robot autónomo', () => {
     expect(result).toEqual(expected);
   });
 
-  // TEST SECRETOS
   it('Debería devolver el array [".**.*.*.", ".***....", "!......."] para el almacén [".**.*.*.", ".***....", "..!....."] y los movimientos ["D", "U", "L", "L", "L", "D"]', () => {
     const store = ['.**.*.*.', '.***....', '..!.....'];
     const movements = ['D', 'U', 'L', 'L', 'L', 'D'];
