@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "node index.mjs",
+    "test": "node index.js",
     "test:reto": "vitest"
   },
   "prettier": "@javalce/prettier-config",
