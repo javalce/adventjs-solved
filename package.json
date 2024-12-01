@@ -13,17 +13,19 @@
     "test:reto": "vitest"
   },
   "prettier": "@javalce/prettier-config",
-  "dependencies": {},
+  "dependencies": {
+    "commander": "12.1.0",
+    "prompts": "2.4.2"
+  },
   "devDependencies": {
     "@javalce/eslint-config": "0.8.2",
     "@javalce/prettier-config": "1.0.3",
     "@types/node": "22.10.1",
+    "@types/prompts": "2.4.9",
     "@vitest/eslint-plugin": "1.1.13",
     "eslint": "9.16.0",
     "prettier": "3.4.1",
-    "prompts": "2.4.2",
     "typescript": "5.7.2",
-    "vitest": "2.1.6",
-    "yargs": "17.7.2"
+    "vitest": "2.1.6"
   }
 }
