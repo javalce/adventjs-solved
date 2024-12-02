@@ -4,6 +4,10 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 
 ## 2023
 
+<details>
+
+<summary>Ver retos</summary>
+
 |  #  |                             Reto                             | Dificultad |              Solución               |
 | :-: | :----------------------------------------------------------: | :--------: | :---------------------------------: |
 | 01  |    🎁 [¡Primer regalo repetido!](2023/reto-01/README.md)     |   Fácil    | [Mostrar](2023/reto-01/solution.ts) |
@@ -21,6 +25,20 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 13  |      ⌚️ [Calculando el tiempo](2023/reto-13/README.md)       |   Fácil    | [Mostrar](2023/reto-13/solution.ts) |
 | 14  |         🚨 [Evita la alarma](2023/reto-14/README.md)         |   Medio    | [Mostrar](2023/reto-14/solution.ts) |
 | 15  |         ↔️ [Robot autónomo](2023/reto-15/README.md)          |   Medio    | [Mostrar](2023/reto-15/solution.ts) |
+
+</details>
+
+## 2024
+
+<details open>
+
+<summary>Ver retos</summary>
+
+|  #  |                         Reto                          | Dificultad |              Solución               |
+| :-: | :---------------------------------------------------: | :--------: | :---------------------------------: |
+| 01  | 🎁 [¡Primer regalo repetido!](2024/reto-01/README.md) |   Fácil    | [Mostrar](2024/reto-01/solution.ts) |
+
+</details>
 
 ## Quickstart
 
