@@ -37,6 +37,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 |  #  |                         Reto                          | Dificultad |              Solución               |
 | :-: | :---------------------------------------------------: | :--------: | :---------------------------------: |
 | 01  | 🎁 [¡Primer regalo repetido!](2024/reto-01/README.md) |   Fácil    | [Mostrar](2024/reto-01/solution.ts) |
+| 02  |    🖼️ [Enmarcando nombres](2024/reto-02/README.md)    |   Fácil    | [Mostrar](2024/reto-02/solution.ts) |
 
 </details>
 
