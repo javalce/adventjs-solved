@@ -9,6 +9,11 @@ export default defineConfig({
         'no-param-reassign': 'off',
         'no-console': 'off',
       },
+      settings: {
+        vitest: {
+          typecheck: true,
+        },
+      },
     },
   ],
 });
