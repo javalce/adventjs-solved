@@ -41,6 +41,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 03  |   🏗️ [Organizando el inventario](2024/reto-03/README.md)   |   Fácil    | [Mostrar](2024/reto-03/solution.ts) |
 | 04  | 🎄 [Decorando el árbol de Navidad](2024/reto-04/README.md) |   Medio    | [Mostrar](2024/reto-04/solution.ts) |
 | 05  |       👞 [Emparejando botas](2024/reto-05/README.md)       |   Fácil    | [Mostrar](2024/reto-05/solution.ts) |
+| 06  |  📦️ [¿Regalo dentro de la caja?](2024/reto-06/README.md)  |   Medio    | [Mostrar](2024/reto-06/solution.ts) |
 
 </details>
 
