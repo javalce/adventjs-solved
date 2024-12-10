@@ -43,7 +43,8 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 05  |       👞 [Emparejando botas](2024/reto-05/README.md)       |   Fácil    | [Mostrar](2024/reto-05/solution.ts) |
 | 06  |  📦️ [¿Regalo dentro de la caja?](2024/reto-06/README.md)  |   Medio    | [Mostrar](2024/reto-06/solution.ts) |
 | 07  |     👹 [El ataque del Grinch](2024/reto-07/README.md)      |   Medio    | [Mostrar](2024/reto-07/solution.ts) |
-| 08  |      🦌 [La carrera de renos](2024/reto-08/README.md)      |   Medio    | [Mostrar](2024/reto-08/solution.ts) |
+| 08  |      🦌 [La carrera de renos](2024/reto-08/README.md)      |   Fácil    | [Mostrar](2024/reto-08/solution.ts) |
+| 09  |        🚂 [El tren mágico](2024/reto-09/README.md)         |   Medio    | [Mostrar](2024/reto-09/solution.ts) |
 
 </details>
 
