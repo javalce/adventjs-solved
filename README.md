@@ -45,6 +45,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 07  |     👹 [El ataque del Grinch](2024/reto-07/README.md)      |   Medio    | [Mostrar](2024/reto-07/solution.ts) |
 | 08  |      🦌 [La carrera de renos](2024/reto-08/README.md)      |   Fácil    | [Mostrar](2024/reto-08/solution.ts) |
 | 09  |        🚂 [El tren mágico](2024/reto-09/README.md)         |   Medio    | [Mostrar](2024/reto-09/solution.ts) |
+| 10  |     🧑‍💻 [El ensamblador élfico](2024/reto-10/README.md)     |   Fácil    | [Mostrar](2024/reto-10/solution.ts) |
 
 </details>
 
