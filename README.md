@@ -47,7 +47,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 09  |         🚂 [El tren mágico](2024/reto-09/README.md)          |   Medio    | [Mostrar](2024/reto-09/solution.ts) |
 | 10  |      🧑‍💻 [El ensamblador élfico](2024/reto-10/README.md)      |   Medio    | [Mostrar](2024/reto-10/solution.ts) |
 | 11  | 🏴‍☠️ [Nombres de archivos codificados](2024/reto-11/README.md) |   Fácil    | [Mostrar](2024/reto-11/solution.ts) |
-| 12  |    💵 [¿Cuánto cuesta el árbol?](2024/reto-12/README.md)     |   Medio    | [Mostrar](2024/reto-12/solution.ts) |
+| 12  |    💵 [¿Cuánto cuesta el árbol?](2024/reto-12/README.md)     |   Fácil    | [Mostrar](2024/reto-12/solution.ts) |
 
 </details>
 
