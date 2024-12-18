@@ -49,8 +49,8 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 11  | 🏴‍☠️ [Nombres de archivos codificados](2024/reto-11/README.md) |   Fácil    | [Mostrar](2024/reto-11/solution.ts) |
 | 12  |    💵 [¿Cuánto cuesta el árbol?](2024/reto-12/README.md)     |   Fácil    | [Mostrar](2024/reto-12/solution.ts) |
 | 13  |    🤖 [¿El robot está de vuelta?](2024/reto-13/README.md)    |  Difícil   | [Mostrar](2024/reto-13/solution.ts) |
-| 14  |     🦌 [Acomodando a los renos](2024/reto-14/README.md)      |   Medio    | [Mostrar](2024/reto-14/solution.ts) |
-| 15  |        ✏️ [Dibujando tablas](2024/reto-15/README.md)         |   Medio    | [Mostrar](2024/reto-15/solution.ts) |
+| 14  |     🦌 [Acomodando a los renos](2024/reto-14/README.md)      |   Fácil    | [Mostrar](2024/reto-14/solution.ts) |
+| 15  |        ✏️ [Dibujando tablas](2024/reto-15/README.md)         |   Fácil    | [Mostrar](2024/reto-15/solution.ts) |
 
 </details>
 
