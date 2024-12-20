@@ -51,7 +51,8 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 13  |    🤖 [¿El robot está de vuelta?](2024/reto-13/README.md)    |  Difícil   | [Mostrar](2024/reto-13/solution.ts) |
 | 14  |     🦌 [Acomodando a los renos](2024/reto-14/README.md)      |   Fácil    | [Mostrar](2024/reto-14/solution.ts) |
 | 15  |        ✏️ [Dibujando tablas](2024/reto-15/README.md)         |   Fácil    | [Mostrar](2024/reto-15/solution.ts) |
-| 16  |  ❄️ [Limpiando la nieve del camino](2024/reto-16/README.md)  |   Medio    | [Mostrar](2024/reto-16/solution.ts) |
+| 16  |  ❄️ [Limpiando la nieve del camino](2024/reto-16/README.md)  |   Fácil    | [Mostrar](2024/reto-16/solution.ts) |
+| 17  |  💣️ [Busca las bombas del Grinch](2024/reto-17/README.md)   |   Medio    | [Mostrar](2024/reto-17/solution.ts) |
 
 </details>
 
