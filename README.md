@@ -53,6 +53,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 15  |        ✏️ [Dibujando tablas](2024/reto-15/README.md)         |   Fácil    | [Mostrar](2024/reto-15/solution.ts) |
 | 16  |  ❄️ [Limpiando la nieve del camino](2024/reto-16/README.md)  |   Fácil    | [Mostrar](2024/reto-16/solution.ts) |
 | 17  |  💣️ [Busca las bombas del Grinch](2024/reto-17/README.md)   |   Medio    | [Mostrar](2024/reto-17/solution.ts) |
+| 18  |    📇 [La agenda mágica de Santa](2024/reto-18/README.md)    |  Difícil   | [Mostrar](2024/reto-18/solution.ts) |
 
 </details>
 
