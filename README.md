@@ -34,27 +34,28 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 
 <summary>Ver retos</summary>
 
-|  #  |                                   Reto                                   | Dificultad |              Solución               |
-| :-: | :----------------------------------------------------------------------: | :--------: | :---------------------------------: |
-| 01  |          🎁 [¡Primer regalo repetido!](2024/reto-01/README.md)           |   Fácil    | [Mostrar](2024/reto-01/solution.ts) |
-| 02  |             🖼️ [Enmarcando nombres](2024/reto-02/README.md)              |   Fácil    | [Mostrar](2024/reto-02/solution.ts) |
-| 03  |          🏗️ [Organizando el inventario](2024/reto-03/README.md)          |   Fácil    | [Mostrar](2024/reto-03/solution.ts) |
-| 04  |        🎄 [Decorando el árbol de Navidad](2024/reto-04/README.md)        |   Medio    | [Mostrar](2024/reto-04/solution.ts) |
-| 05  |              👞 [Emparejando botas](2024/reto-05/README.md)              |   Fácil    | [Mostrar](2024/reto-05/solution.ts) |
-| 06  |         📦️ [¿Regalo dentro de la caja?](2024/reto-06/README.md)         |   Medio    | [Mostrar](2024/reto-06/solution.ts) |
-| 07  |            👹 [El ataque del Grinch](2024/reto-07/README.md)             |   Medio    | [Mostrar](2024/reto-07/solution.ts) |
-| 08  |             🦌 [La carrera de renos](2024/reto-08/README.md)             |   Fácil    | [Mostrar](2024/reto-08/solution.ts) |
-| 09  |               🚂 [El tren mágico](2024/reto-09/README.md)                |   Medio    | [Mostrar](2024/reto-09/solution.ts) |
-| 10  |            🧑‍💻 [El ensamblador élfico](2024/reto-10/README.md)            |   Medio    | [Mostrar](2024/reto-10/solution.ts) |
-| 11  |       🏴‍☠️ [Nombres de archivos codificados](2024/reto-11/README.md)       |   Fácil    | [Mostrar](2024/reto-11/solution.ts) |
-| 12  |          💵 [¿Cuánto cuesta el árbol?](2024/reto-12/README.md)           |   Fácil    | [Mostrar](2024/reto-12/solution.ts) |
-| 13  |          🤖 [¿El robot está de vuelta?](2024/reto-13/README.md)          |  Difícil   | [Mostrar](2024/reto-13/solution.ts) |
-| 14  |           🦌 [Acomodando a los renos](2024/reto-14/README.md)            |   Fácil    | [Mostrar](2024/reto-14/solution.ts) |
-| 15  |              ✏️ [Dibujando tablas](2024/reto-15/README.md)               |   Fácil    | [Mostrar](2024/reto-15/solution.ts) |
-| 16  |        ❄️ [Limpiando la nieve del camino](2024/reto-16/README.md)        |   Fácil    | [Mostrar](2024/reto-16/solution.ts) |
-| 17  |        💣️ [Busca las bombas del Grinch](2024/reto-17/README.md)         |   Medio    | [Mostrar](2024/reto-17/solution.ts) |
-| 18  |          📇 [La agenda mágica de Santa](2024/reto-18/README.md)          |  Difícil   | [Mostrar](2024/reto-18/solution.ts) |
-| 19  | 📦️ [Apilca cajas mágicas para repartir regalos](2024/reto-19/README.md) |  Difícil   | [Mostrar](2024/reto-19/solution.ts) |
+|  #  |                                   Reto                                    | Dificultad |              Solución               |
+| :-: | :-----------------------------------------------------------------------: | :--------: | :---------------------------------: |
+| 01  |           🎁 [¡Primer regalo repetido!](2024/reto-01/README.md)           |   Fácil    | [Mostrar](2024/reto-01/solution.ts) |
+| 02  |              🖼️ [Enmarcando nombres](2024/reto-02/README.md)              |   Fácil    | [Mostrar](2024/reto-02/solution.ts) |
+| 03  |          🏗️ [Organizando el inventario](2024/reto-03/README.md)           |   Fácil    | [Mostrar](2024/reto-03/solution.ts) |
+| 04  |        🎄 [Decorando el árbol de Navidad](2024/reto-04/README.md)         |   Medio    | [Mostrar](2024/reto-04/solution.ts) |
+| 05  |              👞 [Emparejando botas](2024/reto-05/README.md)               |   Fácil    | [Mostrar](2024/reto-05/solution.ts) |
+| 06  |         📦️ [¿Regalo dentro de la caja?](2024/reto-06/README.md)          |   Medio    | [Mostrar](2024/reto-06/solution.ts) |
+| 07  |             👹 [El ataque del Grinch](2024/reto-07/README.md)             |   Medio    | [Mostrar](2024/reto-07/solution.ts) |
+| 08  |             🦌 [La carrera de renos](2024/reto-08/README.md)              |   Fácil    | [Mostrar](2024/reto-08/solution.ts) |
+| 09  |                🚂 [El tren mágico](2024/reto-09/README.md)                |   Medio    | [Mostrar](2024/reto-09/solution.ts) |
+| 10  |            🧑‍💻 [El ensamblador élfico](2024/reto-10/README.md)             |   Medio    | [Mostrar](2024/reto-10/solution.ts) |
+| 11  |       🏴‍☠️ [Nombres de archivos codificados](2024/reto-11/README.md)        |   Fácil    | [Mostrar](2024/reto-11/solution.ts) |
+| 12  |           💵 [¿Cuánto cuesta el árbol?](2024/reto-12/README.md)           |   Fácil    | [Mostrar](2024/reto-12/solution.ts) |
+| 13  |          🤖 [¿El robot está de vuelta?](2024/reto-13/README.md)           |  Difícil   | [Mostrar](2024/reto-13/solution.ts) |
+| 14  |            🦌 [Acomodando a los renos](2024/reto-14/README.md)            |   Fácil    | [Mostrar](2024/reto-14/solution.ts) |
+| 15  |               ✏️ [Dibujando tablas](2024/reto-15/README.md)               |   Fácil    | [Mostrar](2024/reto-15/solution.ts) |
+| 16  |        ❄️ [Limpiando la nieve del camino](2024/reto-16/README.md)         |   Fácil    | [Mostrar](2024/reto-16/solution.ts) |
+| 17  |         💣️ [Busca las bombas del Grinch](2024/reto-17/README.md)         |   Medio    | [Mostrar](2024/reto-17/solution.ts) |
+| 18  |          📇 [La agenda mágica de Santa](2024/reto-18/README.md)           |  Difícil   | [Mostrar](2024/reto-18/solution.ts) |
+| 19  | 📦️ [Apilca cajas mágicas para repartir regalos](2024/reto-19/README.md)  |  Difícil   | [Mostrar](2024/reto-19/solution.ts) |
+| 20  | 🎁 [Encuentra los regalos faltantes y duplicados](2024/reto-20/README.md) |   Fácil    | [Mostrar](2024/reto-20/solution.ts) |
 
 </details>
 
