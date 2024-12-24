@@ -57,6 +57,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 19  | 📦️ [Apilca cajas mágicas para repartir regalos](2024/reto-19/README.md)  |  Difícil   | [Mostrar](2024/reto-19/solution.ts) |
 | 20  | 🎁 [Encuentra los regalos faltantes y duplicados](2024/reto-20/README.md) |   Fácil    | [Mostrar](2024/reto-20/solution.ts) |
 | 21  |    🎄 [Calcula la altura del árbol de Navidad](2024/reto-21/README.md)    |   Fácil    | [Mostrar](2024/reto-21/solution.ts) |
+| 22  |       🎁 [Genera combinaciones de regalos](2024/reto-22/README.md)        |   Medio    | [Mostrar](2024/reto-22/solution.ts) |
 
 </details>
 
