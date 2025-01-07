@@ -60,6 +60,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 22  |       🎁 [Genera combinaciones de regalos](2024/reto-22/README.md)        |   Medio    | [Mostrar](2024/reto-22/solution.ts) |
 | 23  |        🔢 [Encuentra los números perdidos](2024/reto-23/README.md)        |   Fácil    | [Mostrar](2024/reto-23/solution.ts) |
 | 24  | 🪞 [Verifica si los árboles son espejos mágicos](2024/reto-24/README.md)  |   Medio    | [Mostrar](2024/reto-24/solution.ts) |
+| 25  |          🪄 [Ejecuta el lenguaje mágico](2024/reto-25/README.md)          |   Medio    | [Mostrar](2024/reto-25/solution.ts) |
 
 </details>
 
