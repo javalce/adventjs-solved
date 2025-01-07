@@ -59,6 +59,7 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 21  |    🎄 [Calcula la altura del árbol de Navidad](2024/reto-21/README.md)    |   Fácil    | [Mostrar](2024/reto-21/solution.ts) |
 | 22  |       🎁 [Genera combinaciones de regalos](2024/reto-22/README.md)        |   Medio    | [Mostrar](2024/reto-22/solution.ts) |
 | 23  |        🔢 [Encuentra los números perdidos](2024/reto-23/README.md)        |   Fácil    | [Mostrar](2024/reto-23/solution.ts) |
+| 24  | 🪞 [Verifica si los árboles son espejos mágicos](2024/reto-24/README.md)  |   Medio    | [Mostrar](2024/reto-24/solution.ts) |
 
 </details>
 
