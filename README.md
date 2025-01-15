@@ -26,7 +26,8 @@ Este repositorio contiene las soluciones de los retos del [AdventJS](https://adv
 | 14  |         🚨 [Evita la alarma](2023/reto-14/README.md)         |   Medio    | [Mostrar](2023/reto-14/solution.ts) |
 | 15  |         ↔️ [Robot autónomo](2023/reto-15/README.md)          |   Medio    | [Mostrar](2023/reto-15/solution.ts) |
 | 16  |      ❌ [Despligue en viernes](2023/reto-16/README.md)       |   Fácil    | [Mostrar](2023/reto-16/solution.ts) |
-| 17  |     🛷 [Optimizando el alquiler](2023/reto-17/README.md)     |   Medio    | [Mostrar](2023/reto-17/solution.ts) |
+| 17  |     🛷 [Optimizando el alquiler](2023/reto-17/README.md)     |   Fácil    | [Mostrar](2023/reto-17/solution.ts) |
+| 18  |        🔢 [El reloj digital](2023/reto-18/README.md)         |  Difícil   | [Mostrar](2023/reto-18/solution.ts) |
 
 </details>
 
