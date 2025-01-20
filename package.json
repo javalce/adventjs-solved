@@ -12,20 +12,19 @@
     "test": "node index.js",
     "test:reto": "vitest"
   },
-  "prettier": "@javalce/prettier-config",
   "dependencies": {
     "commander": "13.0.0",
     "prompts": "2.4.2"
   },
   "devDependencies": {
-    "@javalce/eslint-config": "0.8.5",
-    "@javalce/prettier-config": "1.0.3",
-    "@types/node": "22.10.6",
+    "@javalce/eslint-config": "0.9.0",
+    "@javalce/prettier-config": "2.1.0",
+    "@types/node": "22.10.7",
     "@types/prompts": "2.4.9",
     "@vitest/eslint-plugin": "1.1.25",
     "eslint": "9.18.0",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
-    "vitest": "2.1.8"
+    "vitest": "3.0.2"
   }
 }
